@@ -107,6 +107,21 @@ header {
     /* Optional: Adds shadow */
 }
 
+.project1{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.project1 video {
+    width: 300px; /* or any preferred size */
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
 body {
     background-image: url(images/IMG_3662.JPG);
     background-size: cover;
